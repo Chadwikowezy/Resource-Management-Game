@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 77c29a5259550974ea0742f297e1a4f6
+timeCreated: 1496180418
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Wide Latin
+  fontNames:
+  - Wide Latin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

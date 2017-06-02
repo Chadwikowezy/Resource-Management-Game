@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
 
     public void AddTapMoney()
     {
-        if (_resoruceHandler.Energy < 1 || _resoruceHandler.Sleep < 1)
+        if (_resoruceHandler.Energy < 1 || _resoruceHandler.Sleep < 1 || CurrentGameState == GameState.Paused)
             return;
 
         _resoruceHandler.Sleep--;

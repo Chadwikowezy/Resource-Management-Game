@@ -65,7 +65,7 @@ public class ResourceHandler : MonoBehaviour
         set
         {
             _thirst = value;
-            _thirst = Mathf.Clamp(_thirst, 0, _thirst);
+            _thirst = Mathf.Clamp(_thirst, 0, _maxThirst);
 
             if (_thirst == 0)
                 Health -= 1;
